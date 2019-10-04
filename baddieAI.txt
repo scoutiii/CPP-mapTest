@@ -1,0 +1,136 @@
+Map[i][j] = Floor;
+                        if(Map[i+1][j] == Floor) {
+                            Map[i+1][j] = Baddie;
+                        }
+                        else if(Map[i][j+1] == Floor) {
+                            Map[i][j+1] = Baddie;
+                        }
+                        else {
+                            if(rand()%2 == 0) {
+                                if(Map[i-1][j] == Floor) {
+                                    Map[i-1][j] = Baddie;
+                                }
+                                else if(Map[i][j-1] == Floor) {
+                                    Map[i][j-1] =Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            else {
+                                if(Map[i][j-1] == Floor) {
+                                    Map[i][j-1] = Baddie;
+                                }
+                                else if(Map[i-1][j] == Floor) {
+                                    Map[i-1][j] = Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            
+                        }
+                        
+                        
+Map[i][j] = Floor;
+                        if(Map[i+1][j] == Floor) {
+                            Map[i+1][j] = Baddie;
+                        }
+                        else if(Map[i][j-1] == Floor) {
+                            Map[i][j-1] = Baddie;
+                        }
+                        else {
+                            if(rand()%2 == 0) {
+                                if(Map[i-1][j] == Floor) {
+                                    Map[i-1][j] = Baddie;
+                                }
+                                else if(Map[i][j+1] == Floor) {
+                                    Map[i][j+1] =Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            else {
+                                if(Map[i][j+1] == Floor) {
+                                    Map[i][j+1] = Baddie;
+                                }
+                                else if(Map[i-1][j] == Floor) {
+                                    Map[i-1][j] = Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            
+                        }
+                        
+                        
+                        
+Map[i][j] = Floor;
+                        if(Map[i-1][j] == Floor) {
+                            Map[i-1][j] = Baddie;
+                        }
+                        else if(Map[i][j+1] == Floor) {
+                            Map[i][j+1] = Baddie;
+                        }
+                        else {
+                            if(rand()%2 == 0) {
+                                if(Map[i+1][j] == Floor) {
+                                    Map[i+1][j] = Baddie;
+                                }
+                                else if(Map[i][j-1] == Floor) {
+                                    Map[i][j-1] =Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            else {
+                                if(Map[i][j-1] == Floor) {
+                                    Map[i][j-1] = Baddie;
+                                }
+                                else if(Map[i+1][j] == Floor) {
+                                    Map[i+1][j] = Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            
+                        }
+                        
+                        
+                        
+Map[i][j] = Floor;
+                        if(Map[i-1][j] == Floor) {
+                            Map[i-1][j] = Baddie;
+                        }
+                        else if(Map[i][j-1] == Floor) {
+                            Map[i][j-1] = Baddie;
+                        }
+                        else {
+                            if(rand()%2 == 0) {
+                                if(Map[i+1][j] == Floor) {
+                                    Map[i+1][j] = Baddie;
+                                }
+                                else if(Map[i][j+1] == Floor) {
+                                    Map[i][j+1] =Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            else {
+                                if(Map[i][j+1] == Floor) {
+                                    Map[i][j+1] = Baddie;
+                                }
+                                else if(Map[i+1][j] == Floor) {
+                                    Map[i+1][j] = Baddie;
+                                }
+                                else {
+                                    Map[i][j] = Baddie;
+                                }
+                            }
+                            
+                        }
